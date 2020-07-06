@@ -2,21 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="445525de-4233-4265-ae5a-cb8af2e7d173" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/questions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Questions/Questions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Questions/Questions.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Questions/QuestionsContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Questions/Result/Result.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Questions/Result/Result.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/question-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../social-network/src/components/Dialogs/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../social-network/src/components/Dialogs/DialogsContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../social-network/src/components/Profile/MyPost/MyPostsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../social-network/src/components/Profile/MyPost/MyPostsContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../social-network/src/components/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../social-network/src/components/Profile/ProfileContainer.jsx" afterDir="false" />
@@ -61,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Questions/QuestionsContainer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="87" column="17" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
+            <state relative-caret-position="217">
+              <caret line="84" column="17" lean-forward="true" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -73,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Questions/Questions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+            <state relative-caret-position="-2">
+              <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -130,7 +115,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1366" />
     <option name="height" value="692" />
@@ -142,7 +127,46 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="27_nerds_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="27_nerds_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="27_nerds_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="27_nerds_test" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="27_nerds_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="27_nerds_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="27_nerds_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="27_nerds_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="27_nerds_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="27_nerds_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Questions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="27_nerds_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="27_nerds_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="redux" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -183,20 +207,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594021756181</updated>
-      <workItem from="1594021757946" duration="36487000" />
+      <workItem from="1594021757946" duration="36727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36487000" />
+    <option name="totallyTimeSpent" value="36727000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1366" height="692" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50166667" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49833333" visible="true" weight="0.27114803" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49833333" visible="true" weight="0.27114803" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49924472" visible="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.49924472" visible="true" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5007553" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
@@ -568,13 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Questions/Questions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Questions/Result/Result.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -601,11 +618,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Questions/QuestionsContainer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="87" column="17" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
+        <state relative-caret-position="217">
+          <caret line="84" column="17" lean-forward="true" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Questions/Questions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
         </state>
       </provider>
     </entry>
