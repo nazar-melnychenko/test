@@ -8,8 +8,8 @@ import {
 	setPoints,
 	setQuestions,
 	setTotalQuestion, toggleBuuton
-} from "../../redux/reducers/question-reducer";
-import Result from "./Result/Result";
+} from "../../redux/actions/questions-action";
+import Result from "../Result/Result";
 import * as axios from "axios";
 
 class QuestionsContainer extends React.Component {
@@ -28,43 +28,41 @@ class QuestionsContainer extends React.Component {
 		this.props.toggleBuuton(false);
 	};
 
-	handleNextQuestion = () => {
-		this.props.toggleBuuton(true);
+	setAnswerPoint = () => {
 		let n = this.props.numberQuestion - 1;
 		if (this.props.tempAnswer === this.props.questions[n].correct_answers) {
 			this.props.setPoints();
 		}
+	};
+
+	handleNextQuestion = () => {
+		this.props.toggleBuuton(true);
+		this.setAnswerPoint();
 		this.props.nextQuestion();
 	};
 
 	handleFinish = () => {
-		let n = this.props.numberQuestion - 1;
-		if (this.props.tempAnswer === this.props.questions[n].correct_answers) {
-			this.props.setPoints();
-		}
+		this.setAnswerPoint();
 		this.props.finished();
 	};
 
 	render() {
-		if (this.props.isFinish) {
-			return (
-				<Result totalQuestion={this.props.totalQuestion}
-				        points={this.props.points}
-				/>
-			);
-		} else {
-			return (
-				<Questions questions={this.props.questions}
-				           numberQuestion={this.props.numberQuestion}
-				           totalQuestion={this.props.totalQuestion}
-				           tempAnswer={this.props.tempAnswer}
-				           isDisabled={this.props.isDisabled}
-				           handleSetAnswer={this.handleSetAnswer}
-				           handleNextQuestion={this.handleNextQuestion}
-				           handleFinish={this.handleFinish}
-				/>
-			);
-		}
+		return (
+			<>
+				{this.props.isFinish
+					? <Result totalQuestion={this.props.totalQuestion} points={this.props.points}/>
+					: <Questions questions={this.props.questions}
+					             numberQuestion={this.props.numberQuestion}
+					             totalQuestion={this.props.totalQuestion}
+					             tempAnswer={this.props.tempAnswer}
+					             isDisabled={this.props.isDisabled}
+					             handleSetAnswer={this.handleSetAnswer}
+					             handleNextQuestion={this.handleNextQuestion}
+					             handleFinish={this.handleFinish}
+					/>
+				}
+			</>
+		);
 	};
 }
 
