@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/27_nerds_test/static/css/main.7b7c0b4c.chunk.css",
+    "main.js": "/27_nerds_test/static/js/main.fc4a2a9f.chunk.js",
+    "main.js.map": "/27_nerds_test/static/js/main.fc4a2a9f.chunk.js.map",
+    "runtime-main.js": "/27_nerds_test/static/js/runtime-main.1e5be380.js",
+    "runtime-main.js.map": "/27_nerds_test/static/js/runtime-main.1e5be380.js.map",
+    "static/js/2.4852b7f0.chunk.js": "/27_nerds_test/static/js/2.4852b7f0.chunk.js",
+    "static/js/2.4852b7f0.chunk.js.map": "/27_nerds_test/static/js/2.4852b7f0.chunk.js.map",
+    "index.html": "/27_nerds_test/index.html",
+    "precache-manifest.956952bdf4ba17ea411acb8dfb34513e.js": "/27_nerds_test/precache-manifest.956952bdf4ba17ea411acb8dfb34513e.js",
+    "service-worker.js": "/27_nerds_test/service-worker.js",
+    "static/css/main.7b7c0b4c.chunk.css.map": "/27_nerds_test/static/css/main.7b7c0b4c.chunk.css.map",
+    "static/js/2.4852b7f0.chunk.js.LICENSE.txt": "/27_nerds_test/static/js/2.4852b7f0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1e5be380.js",
+    "static/js/2.4852b7f0.chunk.js",
+    "static/css/main.7b7c0b4c.chunk.css",
+    "static/js/main.fc4a2a9f.chunk.js"
+  ]
+}
