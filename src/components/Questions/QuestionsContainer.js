@@ -7,7 +7,7 @@ import {
 	setTempAnswer,
 	setPoints,
 	setQuestions,
-	setTotalQuestion, toggleBuuton
+	toggleBuuton
 } from "../../redux/actions/questions-action";
 import Result from "../Result/Result";
 import * as axios from "axios";
@@ -19,7 +19,6 @@ class QuestionsContainer extends React.Component {
 			.then(response => {
 				const data = Object.values(response.data);
 				this.props.setQuestions(data);
-				this.props.setTotalQuestion(data.length);
 			})
 	}
 
@@ -81,7 +80,6 @@ const mapStateToProps = (state) => {
 export default connect(mapStateToProps,
 	{
 		setQuestions,
-		setTotalQuestion,
 		setTempAnswer,
 		toggleBuuton,
 		nextQuestion,

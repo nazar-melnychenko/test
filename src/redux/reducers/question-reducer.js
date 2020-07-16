@@ -21,13 +21,8 @@ const questionReducer = (state = initialState, action) => {
 		case "SET-QUESTIONS":
 			return {
 				...state,
-				questions: action.questions
-			};
-
-		case "SET-TOTAL-QUESTIONS":
-			return {
-				...state,
-				totalQuestion: action.totalQuestion
+				questions: action.questions,
+				totalQuestion: action.questions.length
 			};
 
 		case "TOGGLE-BUTTON":
